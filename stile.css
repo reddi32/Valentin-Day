@@ -1,0 +1,11 @@
+.body{
+    background-color: pink;
+}
+
+.img-fluid-journey{
+    position: relative;
+    left: 12.5%;
+    width: 75%;
+    height: 100%;
+    border-radius: 15px;
+}
