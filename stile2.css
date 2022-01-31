@@ -2,7 +2,7 @@
     background-color: pink;
 }
 
-.img-fluid{
+/*.img-fluid{
     width: 100%;
     height: 100%;
     position: relative;
@@ -86,4 +86,71 @@
 
 .img-fluid-compleanno:hover{
     transform: scale(1.05,1.05);
+}*/
+
+.img-gallery{
+    position: relative;
+    width: 80%;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+
+.img-gallery img{
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.img-gallery img:hover{
+    transform: scale(0.8) rotate(-15deg);
+    border-radius: 20px;
+    box-shadow: 0 32px 75px rgba(68, 77, 136, 0.2);
+}
+
+.full-img{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.full-img img{
+    width: 90%;
+    max-width: 500px;
+
+}
+
+.full-img span{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.img-trafalgar{
+    position: relative;
+    bottom: 45%;
+}
+
+.img-sketch{
+    position: relative;
+    bottom: 45%;
+}
+
+.img-compleanno{
+    position: relative;
+    left: 222%;
+    bottom: 80%;
 }

@@ -28,8 +28,8 @@
 
       <h1 class="title">Il nostro viaggio insieme</h1>
 
-      <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
-
+     <!--<p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+    <div class="img-gallery">
       <div class="container">
         <div class="row">
           <div class="col justify-content-start">
@@ -65,7 +65,7 @@
         </div>
       </div>
     
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+     <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
 
       <div class="container">
         <div class="row">
@@ -83,9 +83,9 @@
         </div>
       </div>
     
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+     <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
 
-    <div class="container">
+     <div class="container">
       <div class="row">
         <div class="col justify-content-start">
                 <img src="images/zoomarine.jpg" class="img-fluid" alt="responsive image" width="600" height="800">
@@ -99,14 +99,14 @@
             <img src="images/londoneye.jpg" class="img-fluid-london" alt="responsive image" width="600" height="800"> 
         </div>
       </div>
-    </div>
+     </div>
 
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+     <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
 
-    <div class="container">
+     <div class="container">
       <div class="row">
         <div class="col justify-content-start">
-                <img src="images/trafalgar.jpg" class="img-fluid" alt="responsive image" width="000" height="1000">
+                <img src="images/trafalgar.jpg" class="img-fluid" alt="responsive image" width="600" height="800">
          
         </div>
         <div class="col justify-content-center">
@@ -117,17 +117,56 @@
             <img src="images/towerbridge.jpg" class="img-fluid-towerbridge" alt="responsive image" width="600" height="800"> 
         </div>
       </div>
-    </div>
+     </div>
 
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+     <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
 
-    <div class="container">
+     <div class="container">
       <div class="row">
         <div class="col justify-content-start">
-                <img src="images/compleanno.jpg" class="img-fluid-compleanno" alt="responsive image" width="000" height="800">
+                <img src="images/compleanno.jpg" class="img-fluid-compleanno" alt="responsive image" width="600" height="800">
         </div>
       </div>
+     </div>
+    </div>-->
+
+    <div class="full-img" id="fullImgBox">
+      <img src="images/start.jpg" id="fullImg">
+      <span onclick="closeFullImg()">X</span>
     </div>
+
+    <div class="img-gallery">
+      <img src="images/start.jpg" onclick="openFullImg(this.src)">
+      <img src="images/sabaudia.jpg" onclick="openFullImg(this.src)">
+      <img src="images/sunsetbeach2.jpg" onclick="openFullImg(this.src)">
+      <img src="images/Christmas.jpg" onclick="openFullImg(this.src)">
+      <img src="images/anniversarybed.jpg" onclick="openFullImg(this.src)">
+      <img src="images/piscina.jpg" onclick="openFullImg(this.src)">
+      <img src="images/pizza.jpg" onclick="openFullImg(this.src)">
+      <img src="images/lake.jpg" onclick="openFullImg(this.src)">
+      <img src="images/rainbow.jpg" onclick="openFullImg(this.src)">
+      <img src="images/zoomarine.jpg" onclick="openFullImg(this.src)">
+      <img src="images/anzio.jpg" onclick="openFullImg(this.src)">
+      <img src="images/londoneye.jpg" onclick="openFullImg(this.src)">
+      <img src="images/trafalgar.jpg" class="img-trafalgar" onclick="openFullImg(this.src)">
+      <img src="images/sketch.jpg" class="img-sketch" onclick="openFullImg(this.src)">
+      <img src="images/towerbridge.jpg" onclick="openFullImg(this.src)">
+      <img src="images/compleanno.jpg" class="img-compleanno" onclick="openFullImg(this.src)">
+    </div>
+
+    <script>
+      var fullImgBox = document.getElementById("fullImgBox");
+      var fullImg = document.getElementById("fullImg");
+
+      function openFullImg(pic) {
+      fullImgBox.style.display = "flex";
+      fullImg.src = pic;    
+      }
+
+      function closeFullImg() {
+        fullImgBox.style.display = "none";
+      }
+    </script>
 
     <h2 class="end-title">E molto altro ancora ci sarà</h2>
 
