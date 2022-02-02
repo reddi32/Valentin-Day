@@ -37,6 +37,7 @@
     top: 50px;
     text-align: middle;
     color: pink;
+    margin-top: 35%;
     width: auto;
     height: auto;
     font-family: 'argesta_displayregular';
@@ -46,7 +47,7 @@
 .seconda-frase{
     position: relative;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 10%;
     color: pink;
     width: auto;
     height: auto;
@@ -57,6 +58,7 @@
 .terza-frase{
     position: relative;
     text-align: center;
+    margin-top: 10%;
     color: pink;
     width: auto;
     height: auto;
@@ -67,6 +69,7 @@
 .quarta-frase{
     position: relative;
     text-align: center;
+    margin-top: 10%;
     color: pink;
     width: auto;
     height: auto;
@@ -77,6 +80,7 @@
 .quinta-frase{
     position: relative;
     text-align: center;
+    margin-top: 10%;
     color: pink;
     width: auto;
     height: auto;
@@ -87,6 +91,7 @@
 .sesta-frase{
     position: relative;
     text-align: center;
+    margin-top: 10%;
     color: pink;
     width: auto;
     height: auto;
@@ -97,6 +102,7 @@
 .settima-frase{
     position: relative;
     text-align: center;
+    margin-top: 10%;
     color: pink;
     width: auto;
     height: auto;
@@ -107,6 +113,7 @@
 .ottava-frase{
     position: relative;
     text-align: center;
+    margin-top: 10%;
     color: pink;
     width: auto;
     height: auto;
