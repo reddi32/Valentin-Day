@@ -26,6 +26,8 @@
     bottom: 100%;
     text-align: middle;
     color: pink;
+    width: auto;
+    height: auto;
     font-family: 'argesta_displayregular';
     font-size: 30px;
 }
@@ -35,6 +37,8 @@
     top: 50px;
     text-align: middle;
     color: pink;
+    width: auto;
+    height: auto;
     font-family: 'argesta_displayregular';
     font-size: 30px;
 }
@@ -44,6 +48,8 @@
     text-align: center;
     margin-top: 60px;
     color: pink;
+    width: auto;
+    height: auto;
     font-family: 'argesta_displayregular';
     font-size: 25px;
 }
@@ -52,6 +58,8 @@
     position: relative;
     text-align: center;
     color: pink;
+    width: auto;
+    height: auto;
     font-family: 'argesta_displayregular';
     font-size: 25px;
 }
@@ -60,6 +68,8 @@
     position: relative;
     text-align: center;
     color: pink;
+    width: auto;
+    height: auto;
     font-family: 'argesta_displayregular';
     font-size: 25px;
 }
@@ -68,6 +78,8 @@
     position: relative;
     text-align: center;
     color: pink;
+    width: auto;
+    height: auto;
     font-family: 'argesta_displayregular';
     font-size: 25px;
 }
@@ -76,6 +88,8 @@
     position: relative;
     text-align: center;
     color: pink;
+    width: auto;
+    height: auto;
     font-family: 'argesta_displayregular';
     font-size: 25px;
 }
@@ -84,6 +98,8 @@
     position: relative;
     text-align: center;
     color: pink;
+    width: auto;
+    height: auto;
     font-family: 'argesta_displayregular';
     font-size: 25px;
 }
@@ -92,6 +108,8 @@
     position: relative;
     text-align: center;
     color: pink;
+    width: auto;
+    height: auto;
     font-family: 'argesta_displayregular';
     font-size: 25px;
 }
