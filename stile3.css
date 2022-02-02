@@ -15,7 +15,7 @@
     bottom: 50%;
     text-align: center;
     font-size: italic;
-    font-family: fantasy;
+    font-family: 'argesta_displayregular';
     font-size: 300%;
     color: pink;
 }
@@ -26,97 +26,8 @@
     bottom: 100%;
     text-align: middle;
     color: pink;
-    width: auto;
-    height: auto;
+    width: 100%;
     font-family: 'argesta_displayregular';
-    font-size: 30px;
+    font-size: calc(15px + (37 - 25) * ((100vw - 300px) / (1600 - 300)));
 }
 
-.prima-frase{
-    position: relative;
-    top: 50px;
-    text-align: middle;
-    color: pink;
-    margin-top: 35%;
-    width: auto;
-    height: auto;
-    font-family: 'argesta_displayregular';
-    font-size: 30px;
-}
-
-.seconda-frase{
-    position: relative;
-    text-align: center;
-    margin-top: 10%;
-    color: pink;
-    width: auto;
-    height: auto;
-    font-family: 'argesta_displayregular';
-    font-size: 25px;
-}
-
-.terza-frase{
-    position: relative;
-    text-align: center;
-    margin-top: 10%;
-    color: pink;
-    width: auto;
-    height: auto;
-    font-family: 'argesta_displayregular';
-    font-size: 25px;
-}
-
-.quarta-frase{
-    position: relative;
-    text-align: center;
-    margin-top: 10%;
-    color: pink;
-    width: auto;
-    height: auto;
-    font-family: 'argesta_displayregular';
-    font-size: 25px;
-}
-
-.quinta-frase{
-    position: relative;
-    text-align: center;
-    margin-top: 10%;
-    color: pink;
-    width: auto;
-    height: auto;
-    font-family: 'argesta_displayregular';
-    font-size: 25px;
-}
-
-.sesta-frase{
-    position: relative;
-    text-align: center;
-    margin-top: 10%;
-    color: pink;
-    width: auto;
-    height: auto;
-    font-family: 'argesta_displayregular';
-    font-size: 25px;
-}
-
-.settima-frase{
-    position: relative;
-    text-align: center;
-    margin-top: 10%;
-    color: pink;
-    width: auto;
-    height: auto;
-    font-family: 'argesta_displayregular';
-    font-size: 25px;
-}
-
-.ottava-frase{
-    position: relative;
-    text-align: center;
-    margin-top: 10%;
-    color: pink;
-    width: auto;
-    height: auto;
-    font-family: 'argesta_displayregular';
-    font-size: 25px;
-}
