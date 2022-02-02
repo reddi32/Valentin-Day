@@ -1,11 +1,14 @@
-.title{
+.body{
+    background-color: #121212;
+    position: relative;
+}
+
+.title{ 
     position: relative;
     text-align: center;
-    padding: 1.5%;
-    font-style: italic;
-    font-family: fantasy;
-    font-size: 500%;
-    color: purple;
+    font-family: 'argesta_displayregular';
+    font-size: 90px;
+    color: pink;
 }
 
 .end-title{
@@ -15,5 +18,41 @@
     font-size: italic;
     font-family: fantasy;
     font-size: 300%;
-    color: purple;
+    color: pink;
+}
+
+.titolo-piccolo{
+    position: relative;
+    top: 100px;
+    bottom: 100%;
+    text-align: middle;
+    color: pink;
+    font-family: 'argesta_displayregular';
+    font-size: 30px;
+}
+
+.prima-frase{
+    position: relative;
+    top: 50px;
+    text-align: middle;
+    color: pink;
+    font-family: 'argesta_displayregular';
+    font-size: 30px;
+}
+
+.seconda-frase{
+    position: relative;
+    text-align: center;
+    margin-top: 40px;
+    color: pink;
+    font-family: 'argesta_displayregular';
+    font-size: 25px;
+}
+
+.terza-frase{
+    position: relative;
+    text-align: center;
+    color: pink;
+    font-family: 'argesta_displayregular';
+    font-size: 25px;
 }

@@ -1,11 +1,77 @@
 .body{
-    background-color: pink;
+    background-color: #121212;
 }
 
-.img-fluid-journey{
+
+.title{ 
     position: relative;
-    left: 12.5%;
-    width: 75%;
-    height: 100%;
-    border-radius: 15px;
+    text-align: center;
+    font-family: Garamond;
+    font-size: 90px;
+    color: pink;
+}
+
+.typewriter h1{
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .1em solid pink; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .10em; /* Adjust as needed */
+    animation: typing 3.5s steps(40, end), blink-caret .60s step-end infinite;
+
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: pink; }
+}
+
+@media screen and (max-width: 800px){
+    .typewriter h1 {
+    overflow: hidden;
+    border-right: .15em solid pink;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .10em;
+    animation: typing 5s steps(40, end), blink-caret .75s step-end infinite;
+    font-size: 25px;
+  }
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 15em }
+  }
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: pink; }
+  }
+}
+
+@media screen and (max-width: 1000px){
+    .typewriter h1 {
+    overflow: hidden;
+    border-right: .1em solid pink;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .10em;
+    animation: typing 5s steps(40, end), blink-caret .75s step-end infinite;
+    font-size: 25px;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 15em }
+  }
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: pink; }
+  }
 }
