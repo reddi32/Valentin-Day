@@ -1,6 +1,5 @@
 .body{
-    background-color: #121212;
-    position: relative;
+    background-color: #242123;
 }
 
 .title{ 
@@ -43,13 +42,53 @@
 .seconda-frase{
     position: relative;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 60px;
     color: pink;
     font-family: 'argesta_displayregular';
     font-size: 25px;
 }
 
 .terza-frase{
+    position: relative;
+    text-align: center;
+    color: pink;
+    font-family: 'argesta_displayregular';
+    font-size: 25px;
+}
+
+.quarta-frase{
+    position: relative;
+    text-align: center;
+    color: pink;
+    font-family: 'argesta_displayregular';
+    font-size: 25px;
+}
+
+.quinta-frase{
+    position: relative;
+    text-align: center;
+    color: pink;
+    font-family: 'argesta_displayregular';
+    font-size: 25px;
+}
+
+.sesta-frase{
+    position: relative;
+    text-align: center;
+    color: pink;
+    font-family: 'argesta_displayregular';
+    font-size: 25px;
+}
+
+.settima-frase{
+    position: relative;
+    text-align: center;
+    color: pink;
+    font-family: 'argesta_displayregular';
+    font-size: 25px;
+}
+
+.ottava-frase{
     position: relative;
     text-align: center;
     color: pink;
