@@ -1,5 +1,6 @@
 .body{
     background-color: #242123;
+    
 }
 
 .title{ 
@@ -28,7 +29,7 @@
     color: pink;
     width: 100%;
     font-family: 'argesta_displayregular';
-    font-size: calc(15px + (27 - 15) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(28px + (27 - 15) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .animated-text{
@@ -48,7 +49,7 @@
     color: pink;
     line-height: 100px;
     text-align: center;
-    font-size: calc(15px + (37 - 30) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(28px + (37 - 30) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .line:first-child{
