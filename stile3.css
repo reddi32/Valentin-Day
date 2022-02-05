@@ -7,7 +7,7 @@
     position: relative;
     text-align: center;
     font-family: 'argesta_displayregular';
-    font-size: 90px;
+    font-size: calc(90px + (40 - 30) * ((100vw - 300px) / (1600 - 300)));
     color: pink;
 }
 
@@ -29,7 +29,7 @@
     color: pink;
     width: 100%;
     font-family: 'argesta_displayregular';
-    font-size: calc(28px + (37 - 30) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(45px + (37 - 30) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .animated-text{
