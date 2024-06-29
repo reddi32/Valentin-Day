@@ -18,34 +18,34 @@
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .10em; /* Adjust as needed */
     font-size: calc(90px + (40 - 30) * ((100vw - 300px) / (1600 - 300)));
-    animation: typing 3.5s steps(40, end), blink-caret .60s step-end infinite;
+    /*animation: typing 3.5s steps(40, end), blink-caret .60s step-end infinite;*/
 
 }
 
 
 
-/* The typing effect */
+/* The typing effect 
 @keyframes typing {
     from { width: 0 }
     to { width: 100% }
-}
-
+}*/
+/*
 @keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: pink; }
-}
+}*/
 
 @media screen and (max-width: 800px){
     .typewriter h1 {
     overflow: hidden;
-    border-right: .15em solid pink;
+    /*border-right: .15em solid pink;*/
     white-space: nowrap;
     margin: 0 auto;
     letter-spacing: .10em;
-    animation: typing 5s steps(40, end), blink-caret .75s step-end infinite;
+    /*animation: typing 5s steps(40, end), blink-caret .75s step-end infinite;*/
     font-size: 25px;
   }
-
+/*
 @keyframes typing {
     from { width: 0 }
     to { width: 15em }
@@ -56,15 +56,15 @@
     50% { border-color: pink; }
   }
 }
-
+*/
 @media screen and (max-width: 1000px){
     .typewriter h1 {
     overflow: hidden;
-    border-right: .1em solid pink;
+    /*border-right: .1em solid pink;*/
     white-space: nowrap;
     margin: 0 auto;
     letter-spacing: .10em;
-    animation: typing 5s steps(40, end), blink-caret .75s step-end infinite;
+    /*animation: typing 5s steps(40, end), blink-caret .75s step-end infinite;*/
     font-size: 25px;
 }
 
@@ -82,4 +82,5 @@
 .micio{
   position: relative;
   text-align: center;
+}
 }
