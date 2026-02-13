@@ -61,3 +61,14 @@
   position: relative;
   text-align: center;
 }
+
+/* Ensure nav buttons labels don't wrap on md+ so they're horizontally aligned */
+.nav-buttons .btn {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .nav-buttons .btn {
+    white-space: nowrap; /* keep each label on one line on medium+ screens */
+  }
+}
