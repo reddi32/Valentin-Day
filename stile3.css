@@ -8,7 +8,7 @@
     text-align: center;
     font-family: 'argesta_displayregular';
     /* Responsive font-size: min 28px, preferred 8vw, max 96px */
-    font-size: clamp(28px, 8vw, 96px);
+    /*font-size: clamp(28px, 8vw, 96px);*/
     color: pink;
     white-space: normal; /* allow wrapping on small screens */
     word-break: break-word; /* prevent overflow of long words */
