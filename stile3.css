@@ -3,12 +3,17 @@
     
 }
 
-.title{ 
+.title{
     position: relative;
     text-align: center;
     font-family: 'argesta_displayregular';
-    font-size: calc(90px + (40 - 30) * ((100vw - 300px) / (1600 - 300)));
+    /* Responsive font-size: min 28px, preferred 8vw, max 96px */
+    font-size: clamp(28px, 8vw, 96px);
     color: pink;
+    white-space: normal; /* allow wrapping on small screens */
+    word-break: break-word; /* prevent overflow of long words */
+    line-height: 1.02;
+    padding: 0 1rem; /* small horizontal padding so text doesn't touch edges */
 }
 
 .end-title{
