@@ -10,16 +10,16 @@
     font-size: 90px;
     color: pink;
 }
-
+/*
 .typewriter h1{
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .1em solid pink; /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line for desktop */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .10em; /* Adjust as needed */
+    overflow: hidden; /* Ensures the content is not revealed until the animation 
+    border-right: .1em solid pink; /* The typwriter cursor 
+    white-space: nowrap; /* Keeps the content on a single line for desktop 
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens 
+    letter-spacing: .10em; /* Adjust as needed 
     font-size: calc(90px + (40 - 30) * ((100vw - 300px) / (1600 - 300)));
-    /*animation: typing 3.5s steps(40, end), blink-caret .60s step-end infinite;*/
-}
+    /*animation: typing 3.5s steps(40, end), blink-caret .60s step-end infinite;
+} */
 
 /* Small screens: allow the title to wrap so it won't be clipped */
 @media screen and (max-width: 800px){
